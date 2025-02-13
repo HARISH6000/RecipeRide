@@ -3,4 +3,5 @@ numpy
 fuzzywuzzy
 python-Levenshtein
 gunicorn
+Pillow
 whitenoise  # For serving static files in production
