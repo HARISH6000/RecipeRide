@@ -1,0 +1,28 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore media files (user-uploaded content)
+media/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore Django secret key file if used
+secret_key.txt
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp

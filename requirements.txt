@@ -1,0 +1,6 @@
+Django
+numpy
+fuzzywuzzy
+python-Levenshtein
+gunicorn
+whitenoise  # For serving static files in production
