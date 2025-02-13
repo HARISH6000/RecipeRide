@@ -7,6 +7,11 @@ set -o errexit
 pip install -r requirements.txt
 
 # Run migrations
+# Delete migrations
+rm -rf yourapp/migrations/
+
+
+python manage.py makemigrations
 python manage.py migrate
 
 # Collect static files
