@@ -3,7 +3,6 @@
 *.db
 
 # Ignore media files (user-uploaded content)
-media/
 
 # Ignore compiled Python files
 *.pyc
